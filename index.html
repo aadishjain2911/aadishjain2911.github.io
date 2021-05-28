@@ -30,16 +30,28 @@
         height: 200px !important;
         width: 300px !important;
         text-align: center;
-        font-size: 50px ;
+        font-size: 50px;
     }
 
     .carousel .carousel-item {
         height: 750px;
     }
 
+    .card{
+        transition: transform 0.25s;
+    }
+
     .card img{
         height: 300px;
         opacity: 20%;
+    }
+
+    .card:hover{
+        transform: scale(1.02);
+    }
+
+    html {
+        scroll-behavior: smooth;
     }
 
     </style>
@@ -53,7 +65,7 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/resume.pdf">Resume</a>
+                    <a class="nav-link" href="./resume.pdf">Resume</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
