@@ -15,9 +15,9 @@
     
     <style>
     #about p{
-        width: 1000px !important; 
-        padding-right: 300px !important;
-        font-size: 18px !important;
+        width: 80% !important; 
+        padding-right: 24% !important;
+        font-size: 1.2vw !important;
         color:rgb(124, 121, 121) !important;
     }
 
@@ -34,7 +34,12 @@
     }
 
     .carousel .carousel-item {
-        height: 750px;
+        height: 100%;
+    }
+
+    .carousel .carousel-item img{
+        max-width: 100%;
+        width: 100%;
     }
 
     .card{
@@ -77,7 +82,7 @@
             <h1>Aadish Jain</h1>
             <p>IIT Bombay CSE'23</p> 
             <div class="float-right">
-                <img src="my_img.jpeg" class="rounded-circle" height="300px" width="225px">
+                <img src="./images/my_img.jpeg" class="rounded-circle" height="300px" width="225px">
             </div>
         </div>
 
@@ -86,19 +91,19 @@
         <br>
 
         <p class="container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus
-        voluptates soluta, non voluptate atque illo. Quas alias voluptates officiis provident saepe,
-        expedita maiores quibusdam quidem incidunt voluptatum, voluptatem facere?
+        I am Aadish Jain, a second year undergraduate student at Computer Science and Engineering
+        department, IIT Bombay. Currently, I am interning as a Data Scientist at Octro Inc. I also 
+        got the opportunity to work as a technical research intern in Data Science at vCreaTek Consulting.
         </p>
         <p class="container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus
-        voluptates soluta, non voluptate atque illo. Quas alias voluptates officiis provident saepe,
-        expedita maiores quibusdam quidem incidunt voluptatum, voluptatem facere?
+        I am quite enthusiastic about the Data Science domain of Machine Learning as I find this field really 
+        captivating and provocative. I also have some experience in Web Development, Deep Learning, Machine 
+        Learning and Web development also.
         </p>
         <p class="container">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus
-        voluptates soluta, non voluptate atque illo. Quas alias voluptates officiis provident saepe,
-        expedita maiores quibusdam quidem incidunt voluptatum, voluptatem facere?
+        I have worked as a Teaching Assistant for the courses CS101 (Computer Programming and Utilization)
+        and MA106 (Linear Algebra) at IIT Bombay. Other than that, I like to read different kinds of books, 
+        play games like cricket, and watch movies. 
         </p>
 
     </div>
@@ -119,13 +124,13 @@
         
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="pic1.jpg">
+                    <img src="./images/pic1.jpg">
                 </div>
                 <div class="carousel-item">
-                    <img src="pic2.jpg">
+                    <img src="./images/pic2.jpg">
                 </div>
                 <div class="carousel-item">
-                    <img src="pic3.jpg">
+                    <img src="./images/pic3.jpg">
                 </div>
             </div>
         
@@ -145,7 +150,7 @@
 
     <div id="projects" class="container">
 
-        <h2 class="display-3" style="text-align: center;">Projects</h2>
+        <h2 class="display-3" style="text-align: center;" id="head">Projects</h2>
 
         <br>
         <br>
@@ -153,33 +158,33 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card w3-hover-shadow">
-                    <img class="card-img-top" src="sentiment_classifier.jpg">
+                    <img class="card-img-top" src="./images/sentiment_classifier.jpg">
                     <div class="card-img-overlay">
                         <a href="https://github.com/aadishjain2911/Sentiment-Classification" class="btn btn-primary stretched-link" target="_blank";></a>
                         <h2 class="card-title" style="color: black">Review Sentiment Classifier</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="card-text">Sentiment Classification system of IMDb Movie Reviews using Deep Learning</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card w3-hover-shadow float-center">
-                    <img class="card-img-top" src="chass.png">
+                    <img class="card-img-top" src="./images/chass.png">
                     <div class="card-img-overlay">
                         <a href="https://github.com/aadishjain2911/CHASS" class="btn btn-primary stretched-link" target="_blank";></a>
                         <h2 class="card-title" style="color: black">Bash Debugger</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="card-text">Terminal based code debugger for Bash Language</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card w3-hover-shadow float-right">
-                    <img class="card-img-top" src="fake_news.jpg">
+                    <img class="card-img-top" src="./images/fake_news.jpg">
                     <div class="card-img-overlay">
                         <a href="https://github.com/aadishjain2911/Fake-News-Classification" class="btn btn-primary stretched-link" target="_blank";></a>
                         <h2 class="card-title" style="color: black">Fake News Classifier</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="card-text">Content based fake news classifier using Sequence Modelling</p>
                     </div>
                 </div>
             </div>
@@ -190,33 +195,33 @@
 
             <div class="col-md-4">
                 <div class="card w3-hover-shadow float-center">
-                    <img class="card-img-top" src="recommender_system.jpg">
+                    <img class="card-img-top" src="./images/recommender_system.jpg">
                     <div class="card-img-overlay">
                         <a href="https://github.com/aadishjain2911/RecommenderSystem" class="btn btn-primary stretched-link" target="_blank";></a>
                         <h2 class="card-title" style="color: black">Movie Recommender System</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="card-text">Predict movie ratings given the content using Machine Learning</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card w3-hover-shadow float-right">
-                    <img class="card-img-top" src="handwritten_digit.png">
+                    <img class="card-img-top" src="./images/handwritten_digit.png">
                     <div class="card-img-overlay">
                         <a href="https://github.com/aadishjain2911/Digit-Predictor" class="btn btn-primary stretched-link" target="_blank";></a>
                         <h2 class="card-title" style="color: black">Handwritten Digit Predictor</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="card-text">Recognize a handwritten digit using Neural Network</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card w3-hover-shadow">
-                    <img class="card-img-top" src="app.jpeg">
+                    <img class="card-img-top" src="./images/app.jpeg">
                     <div class="card-img-overlay">
                         <a href="https://github.com/aadishjain2911/myblog" class="btn btn-primary stretched-link" target="_blank";></a>
-                        <h2 class="card-title" style="color: black">App Development</h2>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h2 class="card-title" style="color: black">Teamed - App Development</h2>
+                        <p class="card-text">An Android application to connect people</p>
                     </div>
                 </div>
             </div>
