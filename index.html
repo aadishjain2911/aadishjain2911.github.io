@@ -27,10 +27,16 @@
     }
 
     #contact{
-        height: 200px !important;
-        width: 300px !important;
+        height: 20% !important;
+        width: 30% !important;
         text-align: center;
         font-size: 50px;
+    }
+
+    #about img{
+        height: auto;
+        width: 250px;
+        object-fit: scale-down;
     }
 
     .carousel .carousel-item {
@@ -44,10 +50,12 @@
 
     .card{
         transition: transform 0.25s;
+        object-fit: scale-down;
     }
 
     .card img{
         height: 300px;
+        max-width: 100%;
         opacity: 20%;
     }
 
@@ -61,10 +69,10 @@
 
     </style>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50" width="device-width" height="device-height">
 
-    <div class="container" id="about">
-        <div class="jumbotron" style="height: 300px">
+    <div class="container" id="about" style="height: 100%">
+        <div class="jumbotron" style="height: 50%">
             <ul class="nav justify-content-end nav-pills sticky-top">
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -79,10 +87,10 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
-            <h1>Aadish Jain</h1>
+            <h1 style="font-size: 2.2vw">Aadish Jain</h1>
             <p>IIT Bombay CSE'23</p> 
             <div class="float-right">
-                <img src="./images/my_img.jpeg" class="rounded-circle" height="300px" width="225px">
+                <img src="./images/my_img.jpeg" class="rounded-circle">
             </div>
         </div>
 
